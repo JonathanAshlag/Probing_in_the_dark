@@ -225,7 +225,6 @@ class verybad_DM:
         return embed,new_stats
 
     def train(self,num_epochs,batch_size,num_steps):
-        #double subsampling trick!!!! #tifz
         sequence_length = num_steps #because we want to predict the next observation
         batch_size = batch_size
         sub_sample_size= 99
